@@ -1,7 +1,24 @@
 :root {
-    --cor-de-fundo:  #FFFFFF;
+    --cor-de-fundo: #EBECEE;
 }
 
 body {
-    background-color: var(--cor-de-fundo);  
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    background-color: white;
+}
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container__imagem {
+    padding: 1em;
 }
